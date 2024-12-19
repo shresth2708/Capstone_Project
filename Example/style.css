@@ -1,3 +1,7 @@
+body{
+    background-color: #F9F5FA;
+    padding: 5%;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -31,5 +35,15 @@ nav{
     text-align: center justify;
 }
 .highlights h3{
-    margin-left: 200px;
+    margin-left: 13%;
+}
+.Metrics{
+    display: flex;
+    justify-content: space-between;
+}
+.Metric-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 20px;
 }
