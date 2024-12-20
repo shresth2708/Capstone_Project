@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background: #f9f5fa;
+    padding: 5%;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    color: #4a154b;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 2rem;
+} 
+.divider{
+    border: 1px solid #221b20;
+}
+
+.mainheading {
+    text-align: center;
+}
+
+.mainheading h1 {
+    font-size: 3.5rem;
+    color: #4a154b;
+    margin-bottom: 2rem;
+}
+
+.main-img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.creative {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+    margin-top: 500px;
+}
+
+.creative-item {
+    background: #f8f9fa;
+    border-radius: 8px;
+
+}
+
+.creative-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.creative-content {
+    padding: 1rem;
+}
+
+.creative-content h4 {
+    color: #4a154b;
+    margin-bottom: 0.5rem;
+}
+
+.para {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.para p {
+    font-size: 1.5rem;
+    color: #4a154b;
+    line-height: 1.6;
+}
+.highlight-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center justify;
+    margin-top: 10px;
+}
+.highlights h3{
+    margin-left: 13%;
+}
+.metrics{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+
+}
+.metric {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: right;
+    gap: 2rem;
+    padding: ;
+
+}
+
+.mat-items {
+    text-align: center;
+}
+
+.metric h2 {
+    font-size: 2.5rem;
+    color: #4a154b;
+    margin-bottom: 0.5rem;
+}
+
+.review-container {
+    margin-bottom: 60px;
+}
+
+.review-container h1{
+    font-size: 2rem;
+    color: #2D1832;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.review-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.clients {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.client img  {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #ddd;
+}
+
+
+.container{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+    .creative-item {
+        grid-template-columns: 1fr;
+    }
+    
+    .metric {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mainheading h1 {
+        font-size: 2.5rem;
+    }
+    .main-img{
+        width: 200px;
+    }
+}
