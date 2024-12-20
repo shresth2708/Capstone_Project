@@ -47,16 +47,16 @@ nav{
     grid-template-rows: repeat(2,1fr);
     column-gap: 20px;
 }
-.Review h1{
+.review-container h1{
     text-align: center;
 }
-.client{
+.clients{
     height: auto;
     width: 10%;
     border: 1px solid #DECFD9;
     border-radius: 16%;
 }
-.review-item{
+.review-items{
     display: flex;
     justify-content: flex-start;
 }
